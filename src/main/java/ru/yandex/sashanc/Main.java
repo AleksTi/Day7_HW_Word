@@ -1,6 +1,9 @@
 package ru.yandex.sashanc;
 
 import org.apache.log4j.Logger;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 import java.io.IOException;
 
 /**
@@ -35,5 +38,7 @@ public class Main {
 
         Occurrence oc = new Occurrence();
         oc.getOccurences(sourceList, wordList, fileRes);
+
+        ApplicationContext context = new AnnotationConfigApplicationContext();
     }
 }

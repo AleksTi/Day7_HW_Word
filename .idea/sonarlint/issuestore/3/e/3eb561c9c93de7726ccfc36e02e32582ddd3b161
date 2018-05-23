@@ -1,7 +1,7 @@
 
-bsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(†€éˆ
-bsquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(†€éˆ
 ]squid:S2142-"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+bsquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(†€éˆ
 bsquid:CommentedOutCodeLineP"<This block of commented-out lines of code should be removed.(†€éˆ
 osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(’÷¤ýÿÿÿÿ
-bsquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(†€éˆ
+bsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(†€éˆ
+bsquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(†€éˆ

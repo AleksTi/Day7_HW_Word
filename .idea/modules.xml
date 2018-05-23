@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Day7_HW_Word.iml" filepath="$PROJECT_DIR$/Day7_HW_Word.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Day7_HW_Word_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Day7_HW_Word_main.iml" group="Day7_HW_Word" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Day7_HW_Word_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Day7_HW_Word_test.iml" group="Day7_HW_Word" />
     </modules>
   </component>
 </project>

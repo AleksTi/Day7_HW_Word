@@ -17,3 +17,5 @@ _
 /src/main/java/ru/yandex/sashanc/Occurrence.java,3\e\3eb561c9c93de7726ccfc36e02e32582ddd3b161
 Q
 !src/test/java/OccurrenceTest.java,f\3\f341b364e3c6300cc2df39d203a865c4da0875d8
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
