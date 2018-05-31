@@ -1,2 +1,5 @@
 
-jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(¥³úÕ
+„%squid:RedundantThrowsDeclarationCheck"GRemove the redundant '!unknownSymbol!' thrown exception declaration(s).(¬ëåºûÿÿÿÿ8È×‹ñ¸,
+Xsquid:S1854*";Remove this useless assignment to local variable "context".(¤ŒÌ&8È×‹ñ¸,
+qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(¥³úÕ8È×‹ñ¸,
+Isquid:S1481*",Remove this unused "context" local variable.(¤ŒÌ&8È×‹ñ¸,

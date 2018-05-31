@@ -14,18 +14,18 @@ import java.util.concurrent.Callable;
  * которые он ищет в ресурсе
  */
 public class Finder implements Callable<List<String>> {
-    final static Logger logger = Logger.getLogger(Finder.class);
+    private static final Logger logger = Logger.getLogger(Finder.class);
     private String source;
     private String[] words;
 
-    /**
-     * Конструктор класса - получает на вход ресурс (файл, http, ...) и массив слов,
-     * которые он ищет в ресурсе
-     * @param source
-     * @param words
-     */
-    public Finder(String source, String[] words) {
+    public Finder() {
+    }
+
+    public void setSource(String source) {
         this.source = source;
+    }
+
+    public void setWords(String[] words) {
         this.words = words;
     }
 
@@ -74,11 +74,9 @@ public class Finder implements Callable<List<String>> {
             try {
                 is = new URL(source).openConnection().getInputStream();
             } catch (MalformedURLException e) {
-                //e.printStackTrace();
                 logger.error("MalformedURLException is occured in " + source);
                 throw new MalformedURLException();
             } catch (IOException e) {
-                //e.printStackTrace();
                 logger.error("IOException is occured in " + source);
                 throw new IOException();
             }
@@ -86,7 +84,6 @@ public class Finder implements Callable<List<String>> {
             try {
                 is = new FileInputStream(source);
             } catch (FileNotFoundException e) {
-                //e.printStackTrace();
                 logger.error("FileNotFoundException is occured in " + source);
                 throw new FileNotFoundException();
             }

@@ -1,6 +1,9 @@
 package ru.yandex.sashanc;
 
 import org.apache.log4j.Logger;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +13,8 @@ import java.util.concurrent.*;
  *
  */
 public class Occurrence implements IGetOccurences {
-    final static Logger logger = Logger.getLogger(Occurrence.class);
+    static final Logger logger = Logger.getLogger(Occurrence.class);
+    ApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"appContext.xml"});
 
     /**
      * Метод создаёт пул потоков и каждому потоку передаёт 1 ресурс и массив слов для поиска в ресурсе
@@ -33,21 +37,22 @@ public class Occurrence implements IGetOccurences {
         List<List<String>> listOfListSentences = new ArrayList<>();
         final ExecutorService service = Executors.newFixedThreadPool(4);
         try {
-            for (int i = 0; i < sources.length; i++) {
-                if (sources[i] != null) {
-                    Callable<List<String>> finderCallable = new Finder(sources[i], words);
+            for (String source : sources) {
+                if (source != null) {
+                    //Bean "finderCallable" объявлен как scope="prototype", для того чтобы каждому потоку отдавать свой экземпляр
+                    Callable<List<String>> finderCallable = (Finder)context.getBean("finderCallable");
+                    ((Finder) finderCallable).setSource(source);
+                    ((Finder) finderCallable).setWords(words);
                     threadResults.add(service.submit(finderCallable));
                 }
             }
-            for(Future<List<String>> threadRes : threadResults){
+            for (Future<List<String>> threadRes : threadResults) {
                 listOfListSentences.add(threadRes.get());
             }
         } catch (InterruptedException e) {
             logger.error("InterruptedException is occured");
-            //e.printStackTrace();
         } catch (ExecutionException e) {
             logger.error("ExecutionException is occured");
-            //e.printStackTrace();
         } finally {
             service.shutdown();
         }
