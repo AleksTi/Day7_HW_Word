@@ -13,17 +13,17 @@ import java.util.concurrent.*;
  *
  */
 public class Occurrence implements IGetOccurences {
-    static final Logger logger = Logger.getLogger(Occurrence.class);
-    ApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"appContext.xml"});
+    private static final Logger logger = Logger.getLogger(Occurrence.class);
+    private ApplicationContext context = new ClassPathXmlApplicationContext("appContext.xml");
 
     /**
      * Метод создаёт пул потоков и каждому потоку передаёт 1 ресурс и массив слов для поиска в ресурсе
-     * @param sources
-     * @param words
-     * @param res
+     * @param sources - массив со списком ресурсов
+     * @param words - массив со списком слов
+     * @param res - файл, куда будут помещены найденные прдложения
      */
     @Override
-    public void getOccurences(String[] sources, String[] words, String res) throws IOException, WordNotFoundException, SourceNotFoundException {
+    public void getOccurences(String[] sources, String[] words, String res) throws WordNotFoundException, SourceNotFoundException {
         logger.info("getOccurences is launched");
         if (sources == null){
             logger.error("SourceNotFoundException is occured");
@@ -50,7 +50,8 @@ public class Occurrence implements IGetOccurences {
                 listOfListSentences.add(threadRes.get());
             }
         } catch (InterruptedException e) {
-            logger.error("InterruptedException is occured");
+            logger.error("InterruptedException is occured", e);
+            Thread.currentThread().interrupt();
         } catch (ExecutionException e) {
             logger.error("ExecutionException is occured");
         } finally {
@@ -79,10 +80,8 @@ public class Occurrence implements IGetOccurences {
             }
         } catch (FileNotFoundException e) {
             logger.error("FileNotFoundException is occured");
-            //e.printStackTrace();
         } catch (IOException e) {
             logger.error("IOException is occured");
-            //e.printStackTrace();
         }
     }
 }

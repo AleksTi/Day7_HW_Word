@@ -1,5 +1,2 @@
 
-isquid:CommentedOutCodeLineY"<This block of commented-out lines of code should be removed.(†€éˆ8úüøð¸,
-isquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(†€éˆ8úüøð¸,
-isquid:CommentedOutCodeLineQ"<This block of commented-out lines of code should be removed.(†€éˆ8úüøð¸,
-qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Ç¨ÙÔ8úüøð¸,
+Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÄÒ³—8´Ýß½»,
