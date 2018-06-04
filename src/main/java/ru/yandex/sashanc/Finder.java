@@ -1,6 +1,9 @@
 package ru.yandex.sashanc;
 
 import org.apache.log4j.Logger;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -13,13 +16,12 @@ import java.util.concurrent.Callable;
  * Класс Finder - объект класса получает на вход ресурс (файл, http, ...) и массив слов,
  * которые он ищет в ресурсе
  */
+@Component
+@Scope("prototype")
 public class Finder implements Callable<List<String>> {
     private static final Logger logger = Logger.getLogger(Finder.class);
     private String source;
     private String[] words;
-
-    public Finder() {
-    }
 
     public void setSource(String source) {
         this.source = source;
@@ -36,6 +38,7 @@ public class Finder implements Callable<List<String>> {
      * @throws Exception if unable to compute a result
      */
     @Override
+
     public List<String> call() throws IOException {
         List<String> resultList = new ArrayList<>();
 
@@ -50,8 +53,8 @@ public class Finder implements Callable<List<String>> {
             }
             sentences = strBuilder.toString().split("(?<=\\.\\s)");
             for (String line : sentences) {
-                for (int i = 0; i < words.length; i++) {
-                    word = words[i];
+                for (String word1 : words) {
+                    word = word1;
                     if (word != null && line.matches(".*\\b" + word + "\\b.*")) {
                         resultList.add(line);
                     }
@@ -68,7 +71,7 @@ public class Finder implements Callable<List<String>> {
      * @return поток экземпляр InputStream
      * @throws IOException
      */
-    public InputStream sourceParser(String source) throws IOException {
+    private InputStream sourceParser(String source) throws IOException {
         InputStream is = null;
         if (source.matches(".*http.*") || source.contains("www")) {
             try {

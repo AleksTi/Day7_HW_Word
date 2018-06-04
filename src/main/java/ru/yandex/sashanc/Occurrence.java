@@ -1,8 +1,9 @@
 package ru.yandex.sashanc;
 
 import org.apache.log4j.Logger;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.beans.factory.ObjectFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -12,9 +13,13 @@ import java.util.concurrent.*;
 /**
  *
  */
+@Component
+
 public class Occurrence implements IGetOccurences {
     private static final Logger logger = Logger.getLogger(Occurrence.class);
-    private ApplicationContext context = new ClassPathXmlApplicationContext("appContext.xml");
+
+    @Autowired
+    private ObjectFactory<Callable<List<String>>> finderCallableFactory;
 
     /**
      * Метод создаёт пул потоков и каждому потоку передаёт 1 ресурс и массив слов для поиска в ресурсе
@@ -35,12 +40,11 @@ public class Occurrence implements IGetOccurences {
         }
         List<Future<List<String>>> threadResults = new ArrayList<>();
         List<List<String>> listOfListSentences = new ArrayList<>();
-        final ExecutorService service = Executors.newFixedThreadPool(4);
+        final ExecutorService service = Executors.newFixedThreadPool(8);
         try {
             for (String source : sources) {
                 if (source != null) {
-                    //Bean "finderCallable" объявлен как scope="prototype", для того чтобы каждому потоку отдавать свой экземпляр
-                    Callable<List<String>> finderCallable = (Finder)context.getBean("finderCallable");
+                    Callable<List<String>> finderCallable = finderCallableFactory.getObject();
                     ((Finder) finderCallable).setSource(source);
                     ((Finder) finderCallable).setWords(words);
                     threadResults.add(service.submit(finderCallable));
@@ -60,7 +64,6 @@ public class Occurrence implements IGetOccurences {
         writeSentence(listOfListSentences, res);
         logger.info("getOccurences is finished");
     }
-
 
     /**
      * Метод сохраняет в файл предлжения из колллекций полученные от каждого потока,

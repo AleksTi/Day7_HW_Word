@@ -1,8 +1,8 @@
 package ru.yandex.sashanc;
 
 import org.apache.log4j.Logger;
-
-import java.io.IOException;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * @author Aleksandr Tikhonov
@@ -11,7 +11,9 @@ import java.io.IOException;
 public class Main {
     static final Logger logger = Logger.getLogger(Main.class);
 
-    public static void main(String[] args) throws WordNotFoundException, IOException, SourceNotFoundException {
+    public static void main(String[] args) throws WordNotFoundException, SourceNotFoundException {
+        ApplicationContext context = new ClassPathXmlApplicationContext("appContext.xml");
+
         String  fileRes = "E://work/res.txt";
 
         String[] sourceList = new String[2000];
@@ -29,7 +31,7 @@ public class Main {
         wordList[5] = "Сегодня";
         wordList[6] = "утка";
 
-        IGetOccurences oc = new Occurrence();
+        Occurrence oc = (Occurrence) context.getBean("occurrence");
         oc.getOccurences(sourceList, wordList, fileRes);
     }
 }
