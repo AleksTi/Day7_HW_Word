@@ -2,19 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ee2fd0e-7aa6-45a3-8418-4b5e84ac5b48" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__log4j_log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_all_1_10_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_17_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_17_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_17_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_17_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_4_3_17_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_4_3_17_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_4_3_17_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_4_3_17_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_17_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_17_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_all_1_10_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Day7_HW_Word_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Day7_HW_Word_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01a62021f13c55ec9babd9c00a5e7de1e2fbfda2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e5b53809e1fbb8c59b69a305e27c938d83fee7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e7233cc442dd22e890222643b79a01460cbb1d7" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3eb561c9c93de7726ccfc36e02e32582ddd3b161" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3eb561c9c93de7726ccfc36e02e32582ddd3b161" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/41620cd62b07f3255ae9b8aac341b9f07d7051b1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47e0710f446b124e6f6b52a0481d51a7c763e83a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bfe553827d8f902361ec73c2707815772c808d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54e14f65aadc2ce96aa58706656893ae488175c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/755950bb690295904a49d36e60958901c54013b8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d11830400a6f0abe25d084d24ade913b31d9f46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/80ad4888dc6dedd8d81d0306970f7ed26a016256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c84adf4bdbb0473076bf77b960d9b3662c5c6fe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7275af3e0feb2d10afe38121bf2514318d0c76c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae1d1782718c7ff3ca2d8c06a1521fb4f49b4c05" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b55b6c304221ec5d19e80c1fdeb90efb9fd10395" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8f35db4d7c3eb5984324b07716e7dd8f217323f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd5d993b11c3e3eee310cb8b5fe0aa5c0373a976" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de76ff1208715a784b03f108f491e41af86b720d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de76ff1208715a784b03f108f491e41af86b720d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef46be075e657779ef0cb4e3408948353bd12314" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef46be075e657779ef0cb4e3408948353bd12314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e569dc6407a1e640105e78ed0d698e1925929ad5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f341b364e3c6300cc2df39d203a865c4da0875d8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5812fff9db4af57977e153f66349be976b8bb61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f597f8d00d91787cfca6f44cc2de1d3b9b1a9ef8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/yandex/sashanc/Finder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ru/yandex/sashanc/Finder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/yandex/sashanc/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ru/yandex/sashanc/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/yandex/sashanc/Occurrence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ru/yandex/sashanc/Occurrence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day7_HW_Word.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day7_HW_Word.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day7_HW_Word.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/Day7_HW_Word.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day7_HW_Word.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Day7_HW_Word.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day7_HW_Word/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Day7_HW_Word/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/appContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/appContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Day7_HW_Word/OccurrenceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/Finder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/Finder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Day7_HW_Word/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Day7_HW_Word/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/Occurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/Occurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/SourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/SourceNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/appContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/appContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OccurrenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OccurrenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -55,8 +95,8 @@
       <file leaf-file-name="appContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/appContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -64,8 +104,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="495">
+              <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,8 +116,8 @@
       <file leaf-file-name="Occurrence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/Occurrence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="46" column="69" lean-forward="true" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="69" />
+            <state relative-caret-position="585">
+              <caret line="46" column="72" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#Occurrence#0" />
@@ -91,8 +131,8 @@
       <file leaf-file-name="Finder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/Finder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-420">
-              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="144">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#Finder#0" />
@@ -127,16 +167,21 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="spring_ioc" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Gradle\gradle-4.7" />
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.7" />
+        <entry key="$PROJECT_DIR$" value="4.4" />
       </map>
     </option>
     <option name="availableProjects">
@@ -306,7 +351,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3054195625865" />
+        <entry key="$PROJECT_DIR$" value="3055483577000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="945441640" />
       </map>
@@ -330,151 +375,6 @@
               <option name="name" value="Day7_HW_Word" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="C:/Gradle/gradle-4.7/src/announce" />
-                  <option value="C:/Gradle/gradle-4.7/src/antlr" />
-                  <option value="C:/Gradle/gradle-4.7/src/base-services" />
-                  <option value="C:/Gradle/gradle-4.7/src/base-services-groovy" />
-                  <option value="C:/Gradle/gradle-4.7/src/build-cache" />
-                  <option value="C:/Gradle/gradle-4.7/src/build-cache-http" />
-                  <option value="C:/Gradle/gradle-4.7/src/build-comparison" />
-                  <option value="C:/Gradle/gradle-4.7/src/build-init" />
-                  <option value="C:/Gradle/gradle-4.7/src/build-option" />
-                  <option value="C:/Gradle/gradle-4.7/src/cli" />
-                  <option value="C:/Gradle/gradle-4.7/src/code-quality" />
-                  <option value="C:/Gradle/gradle-4.7/src/composite-builds" />
-                  <option value="C:/Gradle/gradle-4.7/src/core" />
-                  <option value="C:/Gradle/gradle-4.7/src/core-api" />
-                  <option value="C:/Gradle/gradle-4.7/src/dependency-management" />
-                  <option value="C:/Gradle/gradle-4.7/src/diagnostics" />
-                  <option value="C:/Gradle/gradle-4.7/src/ear" />
-                  <option value="C:/Gradle/gradle-4.7/src/ide" />
-                  <option value="C:/Gradle/gradle-4.7/src/ide-native" />
-                  <option value="C:/Gradle/gradle-4.7/src/ide-play" />
-                  <option value="C:/Gradle/gradle-4.7/src/installation-beacon" />
-                  <option value="C:/Gradle/gradle-4.7/src/internal-android-performance-testing" />
-                  <option value="C:/Gradle/gradle-4.7/src/internal-integ-testing" />
-                  <option value="C:/Gradle/gradle-4.7/src/internal-performance-testing" />
-                  <option value="C:/Gradle/gradle-4.7/src/internal-testing" />
-                  <option value="C:/Gradle/gradle-4.7/src/ivy" />
-                  <option value="C:/Gradle/gradle-4.7/src/jacoco" />
-                  <option value="C:/Gradle/gradle-4.7/src/javascript" />
-                  <option value="C:/Gradle/gradle-4.7/src/jvm-services" />
-                  <option value="C:/Gradle/gradle-4.7/src/language-groovy" />
-                  <option value="C:/Gradle/gradle-4.7/src/language-java" />
-                  <option value="C:/Gradle/gradle-4.7/src/language-jvm" />
-                  <option value="C:/Gradle/gradle-4.7/src/language-native" />
-                  <option value="C:/Gradle/gradle-4.7/src/language-scala" />
-                  <option value="C:/Gradle/gradle-4.7/src/launcher" />
-                  <option value="C:/Gradle/gradle-4.7/src/logging" />
-                  <option value="C:/Gradle/gradle-4.7/src/maven" />
-                  <option value="C:/Gradle/gradle-4.7/src/messaging" />
-                  <option value="C:/Gradle/gradle-4.7/src/model-core" />
-                  <option value="C:/Gradle/gradle-4.7/src/model-groovy" />
-                  <option value="C:/Gradle/gradle-4.7/src/native" />
-                  <option value="C:/Gradle/gradle-4.7/src/osgi" />
-                  <option value="C:/Gradle/gradle-4.7/src/persistent-cache" />
-                  <option value="C:/Gradle/gradle-4.7/src/platform-base" />
-                  <option value="C:/Gradle/gradle-4.7/src/platform-jvm" />
-                  <option value="C:/Gradle/gradle-4.7/src/platform-native" />
-                  <option value="C:/Gradle/gradle-4.7/src/platform-play" />
-                  <option value="C:/Gradle/gradle-4.7/src/plugin-development" />
-                  <option value="C:/Gradle/gradle-4.7/src/plugin-use" />
-                  <option value="C:/Gradle/gradle-4.7/src/plugins" />
-                  <option value="C:/Gradle/gradle-4.7/src/process-services" />
-                  <option value="C:/Gradle/gradle-4.7/src/publish" />
-                  <option value="C:/Gradle/gradle-4.7/src/reporting" />
-                  <option value="C:/Gradle/gradle-4.7/src/resources" />
-                  <option value="C:/Gradle/gradle-4.7/src/resources-gcs" />
-                  <option value="C:/Gradle/gradle-4.7/src/resources-http" />
-                  <option value="C:/Gradle/gradle-4.7/src/resources-s3" />
-                  <option value="C:/Gradle/gradle-4.7/src/resources-sftp" />
-                  <option value="C:/Gradle/gradle-4.7/src/scala" />
-                  <option value="C:/Gradle/gradle-4.7/src/signing" />
-                  <option value="C:/Gradle/gradle-4.7/src/test-kit" />
-                  <option value="C:/Gradle/gradle-4.7/src/testing-base" />
-                  <option value="C:/Gradle/gradle-4.7/src/testing-junit-platform" />
-                  <option value="C:/Gradle/gradle-4.7/src/testing-jvm" />
-                  <option value="C:/Gradle/gradle-4.7/src/testing-native" />
-                  <option value="C:/Gradle/gradle-4.7/src/tooling-api" />
-                  <option value="C:/Gradle/gradle-4.7/src/tooling-api-builders" />
-                  <option value="C:/Gradle/gradle-4.7/src/version-control" />
-                  <option value="C:/Gradle/gradle-4.7/src/workers" />
-                  <option value="C:/Gradle/gradle-4.7/src/wrapper" />
-                  <option value="C:/Gradle/gradle-4.7/lib/ant-1.9.9.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/ant-launcher-1.9.9.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-base-services-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-base-services-groovy-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-build-cache-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-build-option-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-cli-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-core-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-core-api-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-docs-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-installation-beacon-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-jvm-services-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-kotlin-dsl-0.16.3.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-kotlin-dsl-tooling-builders-0.16.3.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-kotlin-dsl-tooling-models-0.16.3.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-launcher-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-logging-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-messaging-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-model-core-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-model-groovy-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-native-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-persistent-cache-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-process-services-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-resources-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-runtime-api-info-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-tooling-api-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/gradle-wrapper-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/groovy-all-2.4.12.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-announce-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-antlr-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-build-cache-http-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-build-comparison-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-build-init-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-code-quality-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-composite-builds-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-dependency-management-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-diagnostics-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-ear-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-ide-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-ide-native-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-ide-play-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-ivy-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-jacoco-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-javascript-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-language-groovy-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-language-java-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-language-jvm-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-language-native-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-language-scala-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-maven-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-osgi-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-platform-base-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-platform-jvm-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-platform-native-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-platform-play-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-plugin-development-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-plugin-use-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-plugins-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-publish-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-reporting-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-resources-gcs-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-resources-http-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-resources-s3-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-resources-sftp-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-scala-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-signing-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-test-kit-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-testing-base-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-testing-junit-platform-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-testing-jvm-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-testing-native-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-tooling-api-builders-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-version-control-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/gradle-workers-4.7.jar" />
-                  <option value="C:/Gradle/gradle-4.7/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -523,11 +423,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1170" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -535,7 +434,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -543,49 +441,13 @@
               <item name="Day7_HW_Word" type="b2602c69:ProjectViewProjectNode" />
               <item name="Day7_HW_Word" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="Day7_HW_Word" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day7_HW_Word" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Day7_HW_Word" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day7_HW_Word" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Day7_HW_Word" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day7_HW_Word" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Day7_HW_Word" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day7_HW_Word" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sashanc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Day7_HW_Word" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day7_HW_Word" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Day7_HW_Word" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -597,7 +459,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Day28 - SpringMVC from GitHub/STC9_28_springMVC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32294428" />
@@ -777,10 +639,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.OccurrenceTest" />
         <item itemvalue="JUnit.OccurrenceTest.getOccurencesTestWWNFException" />
         <item itemvalue="JUnit.OccurrenceTest.getOccurencesTestWException" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -813,7 +675,12 @@
       <workItem from="1527792804769" duration="8327000" />
       <workItem from="1527873550172" duration="960000" />
       <workItem from="1527880377473" duration="6458000" />
-      <workItem from="1528134635044" duration="1597000" />
+      <workItem from="1528134635044" duration="2291000" />
+      <workItem from="1528301183861" duration="147000" />
+      <workItem from="1528385561093" duration="161000" />
+      <workItem from="1529526751144" duration="2875000" />
+      <workItem from="1530980257666" duration="119000" />
+      <workItem from="1530980383693" duration="450000" />
     </task>
     <task id="LOCAL-00001" summary="Added SpringFramework">
       <created>1527098680620</created>
@@ -829,7 +696,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527884527246</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Конфигурация Бина с помощью Аннотаций">
+      <created>1528145313111</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528145313111</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -865,45 +739,44 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55381000" />
+    <option name="totallyTimeSpent" value="59827000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1170" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="716" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50208336" side_tool="true" weight="1.0" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="right" id="Database" order="10" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3294686" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49791667" visible="true" weight="0.2772947" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.31400967" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50208336" side_tool="true" weight="1.0" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49791667" weight="0.2173913" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.5109034" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3294686" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.321875" />
-      <window_info anchor="bottom" id="SonarLint" order="13" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2328125" />
+      <window_info anchor="right" id="Database" order="10" />
       <window_info anchor="right" id="Gradle" order="7" weight="0.3296875" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.28020832" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="12" weight="0.3294686" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="12" visible="true" weight="0.19518717" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3294686" />
+      <window_info anchor="bottom" id="SonarLint" order="13" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294686" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.28020832" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -941,7 +814,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added SpringFramework" />
     <MESSAGE value="Конфигурация Бина с помощью XML файла" />
-    <option name="LAST_COMMIT_MESSAGE" value="Конфигурация Бина с помощью XML файла" />
+    <MESSAGE value="Конфигурация Бина с помощью Аннотаций" />
+    <option name="LAST_COMMIT_MESSAGE" value="Конфигурация Бина с помощью Аннотаций" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1198,40 +1072,14 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/io/InputStreamReader.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/String.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/Scanner.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/io/BufferedWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="241" column="16" selection-start-line="241" selection-start-column="16" selection-end-line="241" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/io/BufferedWriter.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/FutureTask.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/ArgsSource.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/IGetOccurences.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1249,38 +1097,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/Callable.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/Callable.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/OccurrenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+        <state relative-caret-position="546">
+          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/OccurrenceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/appContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="495">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1289,8 +1145,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/Occurrence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="46" column="69" lean-forward="true" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="69" />
+        <state relative-caret-position="585">
+          <caret line="46" column="72" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#Occurrence#0" />
@@ -1302,8 +1158,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/yandex/sashanc/Finder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="144">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#Finder#0" />

@@ -6,7 +6,6 @@ import ru.yandex.sashanc.Occurrence;
 import ru.yandex.sashanc.SourceNotFoundException;
 import ru.yandex.sashanc.WordNotFoundException;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class OccurrenceTest {
